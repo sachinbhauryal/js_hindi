@@ -39,9 +39,9 @@ let obj1 = {
 }
 // console.log(typeof(obj1)); //object
 
-  const firstFunction = function(){
-    console.log("first function");
-  }
+//   const firstFunction = function(){
+//     console.log("first function");
+//   }
 // console.log(typeof(firstFunction)); //function-object
 
 
@@ -51,3 +51,29 @@ Object =>object
 function =>function-object
 
 */
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive) / Heap (Non-primitive)
+
+let myYoutubeName = "hugeRespect";
+let anotherChannel = myYoutubeName;
+
+console.log(myYoutubeName);
+console.log(anotherChannel);
+
+anotherChannel = "MadRespect";
+console.log(anotherChannel);
+console.log(myYoutubeName);
+
+let userOne = {
+    email : "user@google.com",
+    upi : 35235,
+}
+
+let user2 = userOne;
+
+user2.email="sachin@google.com"
+console.log(userOne.email);
+console.log(user2.email);
+
