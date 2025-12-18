@@ -49,9 +49,51 @@ let booleanIsLoggedIn  = Boolean(isLoogedIn)
 // --------------------------------------------------------
 
 let marks = 45;
-console.log(typeof(marks));
+// console.log(typeof(marks));
 
 let stringNumber = String(marks);
-console.log(stringNumber)
-console.log(typeof(stringNumber));
+// console.log(stringNumber)
+// console.log(typeof(stringNumber));
+
+// *****************************Operations*******************************
+
+let value = 4;
+// console.log(value);
+
+let negvalue = -value
+// console.log(negvalue);
+
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(4%2);
+// console.log(2**3);
+
+let str1= "Hello"
+let str2 = " Sachin "
+let str3 = str1 + str2
+// console.log(str3);
+
+
+// console.log("1"+ 2);
+// console.log(1+ "2");
+// console.log("1"+ 2 + 2);
+// console.log(1+ 2 + "2");
+
+
+let gamecounter = 100;
+console.log(gamecounter);
+gamecounter++;
+console.log(gamecounter);
+
+let gamescore = 100;
+console.log(gamescore);
+
+++gamescore;
+console.log(gamescore);
+
+
+
 
