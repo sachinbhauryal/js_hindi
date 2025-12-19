@@ -28,12 +28,26 @@ const myarr2 = new Array(8,1,534,24,66)
 
 // console.log(myarr.includes(9));
 // console.log(myarr.indexOf(4));
+// ------------------------------------------------------------
+// const newArray = myarr.join()
+// console.log(myarr)
+// console.log(typeof(myarr));
 
-const newArray = myarr.join()
-console.log(myarr)
-console.log(typeof(myarr));
+// console.log(newArray);
+// console.log(typeof(newArray));
 
-console.log(newArray);
-console.log(typeof(newArray));
+// -----------------------------------------------------------------
+// Slice /Splice
+
+console.log("A", myarr);
+
+const myn1 = myarr.slice(1,3)
+console.log("b",myarr)
+console.log("b",myn1);
+
+const myn2 = myarr.splice(1,3)
+console.log("c",myarr)
+console.log("c",myn2);
+
 
 
