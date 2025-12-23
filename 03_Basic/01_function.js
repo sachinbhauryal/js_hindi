@@ -59,9 +59,15 @@ function handleObject(anyobject){
 }
 handleObject(user)
 
-
 handleObject({
     username : "Sachin",
     price : 399
 })
 
+const newarray = [200,100,400,600]
+function secondValue (value){
+ return value[1]
+}
+// console.log(secondValue(newarray))
+
+console.log(secondValue([200,100,500,900]))
