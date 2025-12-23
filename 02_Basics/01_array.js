@@ -18,16 +18,17 @@ const myarr2 = new Array(8,1,534,24,66)
 // myarr.pop()
 // console.log(myarr);
 
-// myarr.unshift(9)
+// myarr.unshift(9)      // add 9 at stating
 // console.log(myarr);
 
-// myarr.shift()
+// myarr.shift()  // shift remove the zero element of the array
 // myarr.shift()
 // myarr.shift()
 // console.log(myarr);
 
 // console.log(myarr.includes(9));
-// console.log(myarr.indexOf(4));
+// console.log(myarr.indexOf(4));   // find the location of the paricular element 
+
 // ------------------------------------------------------------
 // const newArray = myarr.join()
 // console.log(myarr)
@@ -36,14 +37,21 @@ const myarr2 = new Array(8,1,534,24,66)
 // console.log(newArray);
 // console.log(typeof(newArray));
 
-// -----------------------------------------------------------------
+// when you join two array the type of the array is converted to string 
+
+
+// ----------------------------------------------------------
 // Slice /Splice
 
 console.log("A", myarr);
 
+//  In slice there is no changes in the original array 
+
 const myn1 = myarr.slice(1,3)
 console.log("b",myarr)
 console.log("b",myn1);
+
+// In splice there is changes in the original array
 
 const myn2 = myarr.splice(1,3)
 console.log("c",myarr)
